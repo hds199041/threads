@@ -1,7 +1,7 @@
 package com.hds.threads.concurrent;
 
 /**
- * 2017-0619 volatile»¹Ã»½â¾ö¿É¼ûĞÔÎÊÌâ.
+ * 2017-0619 volatileè¿˜æ²¡è§£å†³å¯è§æ€§é—®é¢˜.
  * @author john
  *
  */
