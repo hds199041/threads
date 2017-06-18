@@ -1,5 +1,10 @@
 package com.hds.threads.concurrent;
 
+/**
+ * 2017-0619 volatile还没解决可见性问题.
+ * @author john
+ *
+ */
 public class PushTask implements Runnable{
 	public volatile static Long t=0L;
 
