@@ -1,7 +1,7 @@
 package com.hds.threads.concurrent;
 
 public class PushTask implements Runnable{
-	public volatile static long t=0;
+	public volatile static Long t=0L;
 
 	@Override
 	public void run() {
@@ -20,7 +20,7 @@ public class PushTask implements Runnable{
 		for(int i=0;i<10;i++){
 			threads[i].join();
 		}
-		
+	
 		System.out.println("t===="+t);
 	}
 	
