@@ -1,7 +1,5 @@
 package CharacterTest;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
 public class Test {
 
 	public static void main(String[] args) {
